@@ -2,13 +2,12 @@ import firebase from 'firebase';
 
 try {
     var config = {
-        apiKey: "AIzaSyCfVaM0RGo_UVc3kWIRN9fk_bJLGXpJGJA",
-        authDomain: "baik-todo-app.firebaseapp.com",
-        databaseURL: "https://baik-todo-app.firebaseio.com",
-        projectId: "baik-todo-app",
-        storageBucket: "baik-todo-app.appspot.com",
-        messagingSenderId: "329395801005"
+        apiKey: process.env.API_KEY,
+        authDomain: process.env.AUTH_DOMAIN,
+        databaseURL: process.env.DATABASE_URL,
+        storageBucket: process.env.STORAGE_BUCKET,
     };
+    
     firebase.initializeApp(config);
 } catch (e) {
 
