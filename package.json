@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Simple react app",
   "main": "index.js",
+  "engines": {
+    "node": "6.10.0"
+  },
   "scripts": {
     "test": "set NODE_ENV=test&&karma start",
     "build": "webpack",
     "start": "npm run build && node server.js"
   },
-  "author": "Andrew Mead",
+  "author": "Injo Baik",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.9.1",
