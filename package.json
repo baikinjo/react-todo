@@ -8,7 +8,7 @@
     "build": "webpack",
     "start": "npm run build && node server.js"
   },
-  "author": "Injo Baik",
+  "author": "Andrew Mead",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.9.1",
