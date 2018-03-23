@@ -1,6 +1,6 @@
-var expect = require('expect');
+import expect from 'expect';
 
-var TodoAPI = require('TodoAPI');
+import TodoAPI from 'TodoApi';
 
 describe('TodoAPI', () => {
     it('should exist', () => {
